@@ -1,15 +1,13 @@
 import './index.css';
 
-import Header from './components/Header.tsx';
-import Footer from './components/Footer.tsx';
+import Layout from './components/Layout.tsx';
 
 
 function App() {
   return(
-    <>
-    <Header />
-    <Footer />
-    </>
+    <div className="app">
+      <Layout />
+    </div>
   );
 }
 
